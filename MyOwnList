@@ -12,10 +12,10 @@
 		"outboundTag": "direct",
 		"domain": [
 			"domain:vip7.8x6x.com",
-			"domain:acg.lc",
+			"domain:acg.lc"
 		]
 	},
-  {
+        {
 		"type": "field",
 		"port": "",
 		"outboundTag": "block",
