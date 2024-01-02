@@ -1,16 +1,18 @@
 [
 	{
-	    "outboundTag": "proxy",
-	    "domain": [
-	      "edge.microsoft.com",
-	      "edgeservices.bing.com"
-	    ]
+		"outboundTag": "proxy",
+		"domain": [
+			"edge.microsoft.com",
+			"edgeservices.bing.com"
+		]
 	},
 	{
 		"type": "field",
 		"port": "",
 		"outboundTag": "direct",
-		"protocol":["bittorrent"]
+		"protocol": [
+			"bittorrent"
+		]
 	},
 	{
 		"type": "field",
@@ -18,12 +20,12 @@
 		"outboundTag": "direct",
 		"domain": [
 			"domain:vip7.8x6x.com",
-			"domain:acg.lc"
-			"domain:ec.eclinical.edetekapps.com"
+			"domain:acg.lc",
+			"domain:ec.eclinical.edetekapps.com",
 			"domain:ec.eclinical.edetekapps.cn"
 		]
 	},
-        {
+	{
 		"type": "field",
 		"port": "",
 		"outboundTag": "block",
@@ -74,14 +76,14 @@
 		"port": "",
 		"outboundTag": "proxy",
 		"ip": [
-		      "geoip:cloudflare",
-		      "geoip:cloudfront",
-		      "geoip:facebook",
-		      "geoip:fastly",
-		      "geoip:google",
-		      "geoip:netflix",
-		      "geoip:telegram",
-		      "geoip:twitter",
+			"geoip:cloudflare",
+			"geoip:cloudfront",
+			"geoip:facebook",
+			"geoip:fastly",
+			"geoip:google",
+			"geoip:netflix",
+			"geoip:telegram",
+			"geoip:twitter",
 			"geoip:ae",
 			"geoip:au",
 			"geoip:br",
