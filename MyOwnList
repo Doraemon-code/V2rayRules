@@ -1,11 +1,11 @@
 [
-{
-    "outboundTag": "proxy",
-    "domain": [
-      "domain:example.com",
-      "domain:example2.com"
-    ]
-  },
+	{
+	    "outboundTag": "proxy",
+	    "domain": [
+	      "edge.microsoft.com",
+	      "edgeservices.bing.com"
+	    ]
+	},
 	{
 		"type": "field",
 		"port": "",
