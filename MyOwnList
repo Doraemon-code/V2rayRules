@@ -2,8 +2,8 @@
 	{
 		"outboundTag": "proxy",
 		"domain": [
-			"edge.microsoft.com",
-			"edgeservices.bing.com"
+			"domain:edge.microsoft.com",
+			"domain:edgeservices.bing.com"
 		]
 	},
 	{
