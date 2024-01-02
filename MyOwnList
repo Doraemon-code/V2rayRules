@@ -4,6 +4,9 @@
 		"domain": [
 			"domain:edge.microsoft.com",
 			"domain:edgeservices.bing.com"
+			"domain:officeclient.microsoft.com",
+			"domain:sydney.bing.com",
+			"full:www.bingapis.com"
 		]
 	},
 	{
