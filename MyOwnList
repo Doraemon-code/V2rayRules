@@ -3,10 +3,10 @@
 		"outboundTag": "proxy",
 		"domain": [
 			"domain:edge.microsoft.com",
-			"domain:edgeservices.bing.com"
+			"domain:edgeservices.bing.com",
 			"domain:officeclient.microsoft.com",
 			"domain:sydney.bing.com",
-			"full:www.bingapis.com"
+			"full:www.bingapis.com",
 			"domain:javmenu.com",
 			"domain:example2.com",
 			"domain:timg111.top",
