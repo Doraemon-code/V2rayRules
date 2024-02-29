@@ -16,7 +16,8 @@
     "domain:teams.microsoft.com",
     "domain:teams.events.data.microsoft.com",
     "domain:ai.tentech.top",
-    "domain:edetek.sharepoint.com"
+    "domain:edetek.sharepoint.com",
+    "domain:browser.pipe.aria.microsoft.com"
     ]
   },
   {
