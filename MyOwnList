@@ -1,7 +1,3 @@
-# domain:vip7.8x6x.com 匹配域名和子域名
-# full:vip7.8x6x.com   匹配整段
-# regexp:\.goo.*\.com$ 匹配正则
-# google.com           匹配目标字段中任意一段即生效
 [
   {
     "outboundTag": "direct",
