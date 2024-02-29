@@ -13,3 +13,8 @@
   "balancerTag": "balancer"
 }
 #多个条件时需所有条件均满足，才会生效
+# domain:vip7.8x6x.com 匹配域名和子域名
+# full:vip7.8x6x.com   匹配整段
+# regexp:\.goo.*\.com$ 匹配正则
+# google.com           匹配目标字段中任意一段即生效
+# keyword:google.com   匹配目标字段中任意一段即生效
