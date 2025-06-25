@@ -41,6 +41,7 @@
     "type": "field",
     "outboundTag": "proxy",
     "domain": [
+      "domain:chinadigitaltimes.net",
       "geosite:geolocation-!cn"
     ]
   },
