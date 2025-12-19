@@ -5,6 +5,10 @@
     "protocol": [
       "bittorrent"
     ]
+    "domain": [
+      "domain:claude.now",
+      "domain:sharedchat.fun"
+    ]
   },
   {
     "remarks": "api.ip.sb",
