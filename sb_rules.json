@@ -2,6 +2,7 @@
   {
     "remarks": "自定义直连",
     "outboundTag": "direct",
+    "enabled": true,
     "domain": [
     "ec.eclinical.edetekapps.com",
     "ec.eclinical.edetekapps.cn",
@@ -39,6 +40,7 @@
   {
     "remarks": "api.ip.sb",
     "outboundTag": "proxy",
+    "enabled": true,
     "domain": [
       "api.ip.sb"
     ]
@@ -46,6 +48,7 @@
   {
     "remarks": "Google cn",
     "outboundTag": "proxy",
+    "enabled": true,
     "domain": [
       "domain:googleapis.cn",
       "domain:gstatic.com"
@@ -54,12 +57,14 @@
   {
     "remarks": "阻断udp443",
     "outboundTag": "block",
+    "enabled": true,
     "port": "443",
     "network": "udp"
   },
   {
     "remarks": "绕过局域网IP",
     "outboundTag": "direct",
+    "enabled": true,
     "ip": [
       "geoip:private"
     ]
@@ -67,6 +72,7 @@
   {
     "remarks": "绕过局域网域名",
     "outboundTag": "direct",
+    "enabled": true,
     "domain": [
       "geosite:private"
     ]
@@ -74,6 +80,7 @@
   {
     "remarks": "代理海外公共DNSIP",
     "outboundTag": "proxy",
+    "enabled": true,
     "ip": [
       "1.1.1.1",
       "1.0.0.1",
@@ -140,6 +147,7 @@
   {
     "remarks": "代理海外公共DNS域名",
     "outboundTag": "proxy",
+    "enabled": true,
     "domain": [
       "domain:cloudflare-dns.com",
       "domain:one.one.one.one",
@@ -154,6 +162,7 @@
   {
     "remarks": "代理IP",
     "outboundTag": "proxy",
+    "enabled": true,
     "ip": [
       "geoip:facebook",
       "geoip:fastly",
@@ -166,6 +175,7 @@
   {
     "remarks": "代理GFW",
     "outboundTag": "proxy",
+    "enabled": true,
     "domain": [
       "geosite:gfw",
       "geosite:greatfire"
@@ -175,5 +185,6 @@
     "remarks": "最终直连",
     "port": "0-65535",
     "outboundTag": "direct"
+    "enabled": true,
   }
 ]
