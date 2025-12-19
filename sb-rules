@@ -4,7 +4,7 @@
     "outboundTag": "direct",
     "protocol": [
       "bittorrent"
-    ]
+    ],
     "domain": [
       "domain:claude.now",
       "domain:sharedchat.fun"
