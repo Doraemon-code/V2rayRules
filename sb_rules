@@ -1,5 +1,12 @@
 [
   {
+    "remarks": "绕过bittorrent",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
     "remarks": "自定义直连",
     "outboundTag": "direct",
     "domain": [
@@ -29,13 +36,6 @@
       "domain:sharedchat.fun",
       "domain:claude.now",  
       "domain:edc.clinflash.com"
-    ]
-  },
-  {
-    "remarks": "绕过bittorrent",
-    "outboundTag": "direct",
-    "protocol": [
-      "bittorrent"
     ]
   },
   {
