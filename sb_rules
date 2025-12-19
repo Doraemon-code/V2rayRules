@@ -3,7 +3,30 @@
     "remarks": "自定义直连",
     "outboundTag": "direct",
     "domain": [
-      "bittorrent"
+    "ec.eclinical.edetekapps.com",
+    "ec.eclinical.edetekapps.cn",
+    "weiq.xyz",
+    "ai.tentech.top",
+    "translate.homegu.com",
+    "teams.microsoft.com",
+    "teams.events.data.microsoft.com",
+    "ai.tentech.top",
+    "edetek.sharepoint.com",
+    "browser.pipe.aria.microsoft.com",
+    "click.pstmrk.it",
+    "cims-medtech.com",
+    "ctms.zzmedicine.cn",
+    "decadej.com",
+    "ctms.zzmedicine.cn",
+    "nf.video",
+    "node2.bestaistore.com",
+    "liuliangbang.vip",
+    "music.gdstudio.xyz",
+    "jetbrains.com",
+    "bestaistore.com",
+    "sharedchat.fun",
+    "claude.now",  
+    "edc.clinflash.com"
     ]
   },
   {
