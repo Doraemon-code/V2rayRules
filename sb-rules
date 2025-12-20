@@ -4,9 +4,13 @@
     "outboundTag": "direct",
     "protocol": [
       "bittorrent"
-    ],
+    ]
+  },
+  {
+    "remarks": "自定义",
+    "outboundTag": "direct",
     "domain": [
-      "domain:edc.clinflash.com"
+      "domain:edc.clinflash.com",
       "domain:vip7.8x6x.com",
       "domain:acg.lc",
       "domain:ec.eclinical.edetekapps.com",
@@ -31,7 +35,7 @@
       "domain:jetbrains.com",
       "domain:bestaistore.com",
       "domain:sharedchat.fun",
-      "domain:claude.now",  
+      "domain:claude.now",
       "domain:edc.clinflash.com"
     ]
   },
