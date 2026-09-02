@@ -1,0 +1,127 @@
+{
+  "route": {
+    "rules": [
+      {
+        "domain": [
+          "edc.clinflash.com",
+          "vip7.8x6x.com",
+          "acg.lc",
+          "ec.eclinical.edetekapps.com",
+          "ec.eclinical.edetekapps.cn",
+          "weiq.xyz",
+          "ai.tentech.top",
+          "translate.homegu.com",
+          "teams.microsoft.com",
+          "teams.events.data.microsoft.com",
+          "edetek.sharepoint.com",
+          "browser.pipe.aria.microsoft.com",
+          "click.pstmrk.it",
+          "stripe.com",
+          "cims-medtech.com",
+          "eln.cims-medtech.com",
+          "api.ipify.org",
+          "study.cims-medtech.com",
+          "ctms.zzmedicine.cn",
+          "decadej.com",
+          "nf.video",
+          "node2.bestaistore.com",
+          "liuliangbang.vip",
+          "bestaistore.com",
+          "sharedchat.fun",
+          "claude.now",
+          "clinflash.com",
+          "siliconflow.cn",
+          "jianying.com",
+          "baishan.com",
+          "mail.163.com",
+          "iepose.com"
+        ],
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
+        "domain": [
+          "googleapis.cn",
+          "gstatic.com",
+          "teracloud.jp",
+          "linux.do"
+        ],
+        "action": "route",
+        "outbound": "proxy"
+      },
+      {
+        "rule_set": [
+          "geosite-adblock"
+        ],
+        "action": "reject"
+      },
+      {
+        "rule_set": [
+          "geosite-nsfw"
+        ],
+        "action": "reject"
+      },
+      {
+        "rule_set": [
+          "geosite-openai",
+          "geosite-gemini"
+        ],
+        "action": "route",
+        "outbound": "proxy"
+      },
+      {
+        "rule_set": [
+          "geosite-cn",
+          "geoip-cn"
+        ],
+        "action": "route",
+        "outbound": "direct"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-adblock",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/lyc8503/sing-box-rules/raw/refs/heads/rule-set-geosite/geosite-adblock.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "geosite-nsfw",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/malikshi/sing-box-geo/raw/refs/heads/rule-set-geosite/geosite-oisd-nsfw.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "geosite-openai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/lyc8503/sing-box-rules/raw/refs/heads/rule-set-geosite/geosite-openai.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "geosite-gemini",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/lyc8503/sing-box-rules/raw/refs/heads/rule-set-geosite/geosite-google-gemini.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/cn.srs",
+        "download_detour": "proxy"
+      }
+    ],
+    "final": "proxy"
+  }
+}
